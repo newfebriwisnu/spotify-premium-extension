@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Spotify Premium Extension",
+  "version": "1.0",
+  "description": "Spotify Premium Extension. Free Spotify Premium for everyone using this extension!",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "declarativeNetRequestFeedback",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://open.spotify.com/"
+  ],
+  "optional_host_permissions": [
+    "*://open.spotify.com/*",
+    "*://audio-ak-spotify-com.akamaized.net/*",
+    "https://*.googlesyndication.com/*",
+    "*://audio-akp-quic-spotify-com.akamaized.net/*",
+    "*://gae-spclient.spotify.com/*",
+    "*://*.audio-fa.scdn.co/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://open.spotify.com/*"],
+      "css": ["style.css"]
+    }
+  ]
+}
