@@ -1,8 +1,10 @@
 
 # Spotify Premium Extensions
 
-**Tested in Chrome 117 MacOS Ventura 13.6**
-**Tested in Chrome 116 Windows 10**
+**Tested in:**
+- Chrome 117 MacOS Ventura 13.6
+- Chrome 117 Windows 11
+- Chrome 116 Windows 10
 
 ## Features
 - Update to Manifest v3
