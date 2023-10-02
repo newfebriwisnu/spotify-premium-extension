@@ -2,6 +2,7 @@
 # Spotify Premium Extensions
 
 **Tested in Chrome 117 MacOS Ventura 13.6**
+**Tested in Chrome 116 Windows 10**
 
 ## Features
 - Update to Manifest v3
@@ -19,5 +20,5 @@
 6. Open Spotify as App
 7. Don't delete folder containing repo else it won't work
 
-## Thank you
-Thanks to: [GopalSaraf/Spotify_Crack_For_MacOS-Windows-Linux](https://github.com/GopalSaraf/Spotify_Crack_For_MacOS-Windows-Linux) manifest v2
+## Thanks to
+- [GopalSaraf/Spotify_Crack_For_MacOS-Windows-Linux](https://github.com/GopalSaraf/Spotify_Crack_For_MacOS-Windows-Linux) manifest v2
